@@ -15,7 +15,7 @@ class Navigation extends Component {
 				<div className="collapse navbar-collapse">
 					<div className="navbar-nav mx-auto">
 						<a className="nav-item nav-link active" href="#">Accueil</a>
-						<a className="nav-item nav-link" href="#">Formations</a>
+						<a className="nav-item nav-link" href="#">A propos</a>
 						<a className="nav-item nav-link" href="#">Compétences</a>
 						<a className="nav-item nav-link" href="#">Contact</a>
 					</div>
