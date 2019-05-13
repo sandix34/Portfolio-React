@@ -22,6 +22,7 @@ body {
   background-image: cover;
   z-index: 0;
   text-align: center;
+  display: flex;
 }
 .title {
   margin-top: 2em;
@@ -45,9 +46,12 @@ body {
   margin: 1em;
 }
 .arrow {
-  margin-top: 5em;
+  align-self: center;
+ 
 }
 .arrow:hover {
   color: #546e7b;
 }
+
+/*~~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~~~~~~~~*/
 

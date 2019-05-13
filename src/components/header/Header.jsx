@@ -28,9 +28,7 @@ class Header extends Component {
 						<span className="icons" ><FontAwesomeIcon icon={faJs} size="3x" color="#f8e017" /></span>
 						<span className="icons" ><FontAwesomeIcon icon={faReact} size="3x" color="#60dafb" /></span>
 					</div>*/}
-					<div  >
-					<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="5x" color="#d4d0cd" />
-					</div>
+					<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="4x" color="#899ca2" />
 				</div>
 			</div >
 		);
