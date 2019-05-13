@@ -17,7 +17,7 @@ class About extends Component {
 			<div className="about d-flex flex-column align-items-center mr-5 p-5 " id="about">
 				<h2 className="p-5">A propos de moi</h2>
 				<div className="p-5">
-					<img src={myPhoto} alt="photo" class="img-thumbnail rounded-circle"></img>
+					<img src={myPhoto} alt="photo" className="img-thumbnail rounded-circle"></img>
 				</div>
 
 				<p>

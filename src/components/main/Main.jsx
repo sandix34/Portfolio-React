@@ -8,6 +8,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import SkillBar from 'react-skillbars';
 import  SKILLS from './listSkills';
 
+// photo
+import codeur from '../../img/codeur.png';
+
 // PERSONNAL COMPONENTS
 import Formation from './Formation';
 import About from './About';
@@ -42,12 +45,20 @@ class Main extends Component {
 					{/*COMPETENCES */}
 					<div className=" col-lg-6 p-5">
 						<h2 className="text-center p-5">Compétences</h2>
+						<div className="pb-5">
+							<img src={ codeur } alt="" className="img-thumbnail"/>	
+						</div>
+						
 						<SkillBar skills={SKILLS} colors={colors}/>
 						<a class="btn btn-outline-light btn-block "
 						 href="https://github.com/sandix34/Mon-traqueur-d-apprentissage" 
 						 role="button"
 						 target="_blank"
 						 >Voir mon journal complet de compétences <FontAwesomeIcon className="social" icon={faGithub}  color="#4daac4" /></a>
+						 <h2 className="text-center p-5">Ambitions</h2>
+						 <p className="p-5">
+							 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure recusandae vero beatae. Cumque officiis enim explicabo consequuntur ullam ad deleniti, iure dolores, reprehenderit in animi ipsam repellendus harum provident!
+						 </p>
 					</div>
 				</section>
 				<section className="SKILLS ">
