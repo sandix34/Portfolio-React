@@ -7,6 +7,9 @@ import myPhoto from '../../img/myPhoto.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+// PERSONNAL COMPONENTS
+import Formation from './Formation';
+
 class Main extends Component {
 	constructor(props) {
 		super(props);
@@ -17,6 +20,7 @@ class Main extends Component {
 			<main className="main  ">
 				{/*SECTION FORMATION */}
 				<section className="formation d-flex ">
+					{/* A PROPOS */}
 					<div className="col-lg-6">
 						<h2>A propos de moi</h2>
 						<img src={myPhoto} alt="photo" class="img-thumbnail rounded-circle"></img>
@@ -27,8 +31,10 @@ class Main extends Component {
 							<FontAwesomeIcon className="social" icon={faGithub} size="2x" color="black" />
 						</a>
 					</div>
+					{/* FORMATIONS */}
 					<div className="col-lg-6">
 						<h2>formation</h2>
+						<Formation />
 					</div>
 					{/*SECTION COMPETENCES */}
 				</section>
