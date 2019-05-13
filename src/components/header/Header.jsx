@@ -5,9 +5,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faHtml5, faCss3, faJs } from '@fortawesome/free-brands-svg-icons';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
-
-// Personnal components
-import Navigation from './Navigation';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Header extends Component {
 	constructor(props) {
@@ -17,8 +15,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<div className="header">
-				<Navigation />
+			<div className="header ">
 				<div className="img flex-column d-flex ">
 					<h1 className="title mb-5"><span className="symbol">&lt;</span> Sandrine ZOCCA <span className="symbol">&#47; &gt;</span></h1>
 					<h2 className="sub-title"> <span className="symbol">&#123;</span> Développeuse Web Junior <span className="symbol">&#125;</span></h2>
@@ -28,7 +25,12 @@ class Header extends Component {
 						<span className="icons" ><FontAwesomeIcon icon={faJs} size="3x" color="#f8e017" /></span>
 						<span className="icons" ><FontAwesomeIcon icon={faReact} size="3x" color="#60dafb" /></span>
 					</div>*/}
-					<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="4x" color="#899ca2" />
+					<AnchorLink href='#about'>
+						<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="4x" color="#899ca2" />
+					</AnchorLink>
+
+
+
 				</div>
 			</div >
 		);

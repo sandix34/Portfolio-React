@@ -39,7 +39,7 @@ body {
   margin-right: 1em;
 }
 .social:hover {
-  color: #546e7b;
+  color: #4daac4;
 }
 /* Languages icons*/
 .icons {
@@ -50,12 +50,17 @@ body {
  
 }
 .arrow:hover {
-  color: #546e7b;
+  color: #4daac4;
 }
 
 /*~~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~~~~~~~~*/
 
 .formation {
+  padding: 0 !important;
   background-color: #63727f;
   color: white;
+}
+
+.parcours {
+  background-color: #4f5b65;
 }
