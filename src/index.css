@@ -1,5 +1,16 @@
+/* ~~~~~~~~~ Google Font ~~~~~~~~~~*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+/* ~~~~~~ BODY ~~~~~~*/
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+
 .container-fluid {
-  margin: auto;
+  padding: 0 !important;
+
 }
 
 
@@ -10,32 +21,33 @@
   height: 100vh;
   background-image: cover;
   z-index: 0;
+  text-align: center;
 }
-
 .title {
-  color: white;
+  margin-top: 2em;
   font-size: 5em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #444954;
 }
-
-.sub-title {
-  color: white;
-
-}
-
-h3 {
-  color: white;
-}
-
-hr {
-  color: white;
-  height: 2px;
-}
-
 .symbol {
-  color: red;
+  color: #546e7b; 
 }
-
+/* Github icon */
+.social {
+  margin-right: 1em;
+}
 .social:hover {
-  color: #60dafb;
+  color: #546e7b;
+}
+/* Languages icons*/
+.icons {
+  margin: 1em;
+}
+.arrow {
+  margin-top: 5em;
+}
+.arrow:hover {
+  color: #546e7b;
 }
 

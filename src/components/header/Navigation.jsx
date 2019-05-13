@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocialLink from './SocialLink';
 
 class Navigation extends Component {
 	constructor(props) {
@@ -7,16 +8,19 @@ class Navigation extends Component {
 	}
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 				<button className="navbar-toggler" >
 					<span className="navbar-toggler-icon" />
 				</button>
 				<div className="collapse navbar-collapse">
 					<div className="navbar-nav mx-auto">
 						<a className="nav-item nav-link active" href="#">Accueil</a>
-						<a className="nav-item nav-link" href="#">A propos</a>
-						<a className="nav-item nav-link" href="#">Portfolio</a>
+						<a className="nav-item nav-link" href="#">Formations</a>
+						<a className="nav-item nav-link" href="#">Compétences</a>
 						<a className="nav-item nav-link" href="#">Contact</a>
+					</div>
+					<div>
+						<SocialLink />
 					</div>
 				</div>
 			</nav>
