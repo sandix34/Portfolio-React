@@ -64,3 +64,8 @@ body {
 .parcours {
   background-color: #4f5b65;
 }
+
+.projets {
+  padding: 0 !important;
+  margin: 0 !important;
+}
