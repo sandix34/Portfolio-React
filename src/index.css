@@ -69,3 +69,10 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+/*~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footer {
+  color: white;
+  background-color: #444954;
+}

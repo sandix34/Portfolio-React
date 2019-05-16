@@ -3,21 +3,21 @@ const projets  ={
     projet1: {
        nom: 'allomovies', 
        image: 'allomovies.jpg',
-       text: 'test 1Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid, necessitatibus iusto ipsum veniam velit. Dignissimos, natus ratione nemo, enim esse necessitatibus, et quidem odio qui at ab quisquam blanditiis.',
-       link: 'https://github.com/sandix34'
+       text: `Un projet guidé réalisé dans le cadre de la formation e-learning React proposé par Dyma.fr afin d'apréhender les bases de React`,
+       link: 'https://github.com/sandix34/Atelier-React'
 
     },
     projet2: {
         nom: 'markdown editor',
         image: 'markdownEditor.jpg',
-        text: 'test 22 22 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid, necessitatibus iusto ipsum veniam velit. Dignissimos, natus ratione nemo, enim esse necessitatibus, et quidem odio qui at ab quisquam blanditiis.',
-        link: 'https://github.com/sandix34'
+        text: `Un éditeur de markdown utilisant Bootstrap et Marked.js, réalisé dans le cadre d'une formation e-learning React `,
+        link: 'https://github.com/sandix34/Markdown-Editor'
     },
     projet3: {
         nom: 'openLayers',
         image: 'openLayers.jpg',
-        text: ' test 33 33 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid, necessitatibus iusto ipsum veniam velit. Dignissimos, natus ratione nemo, enim esse necessitatibus, et quidem odio qui at ab quisquam blanditiis.',
-        link: 'https://github.com/sandix34'
+        text: ` Projet personnel sur une collection de composants React-OpenLayers, mettant en pratique mes formations React d'une part et OpenLayers de l'autre.`,
+        link: 'https://github.com/sandix34/React-OpenLayers'
     }
 
 }

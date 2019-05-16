@@ -18,7 +18,7 @@ class Navigation extends Component {
 						<a className="nav-item nav-link" href="#about">A propos</a>
 						<a className="nav-item nav-link" href="#competences">Compétences</a>
 						<a className="nav-item nav-link" href="#portfolio">Portfolio</a>
-						<a className="nav-item nav-link" href="#">Contact</a>
+						<a className="nav-item nav-link" href="#footer">Contact</a>
 					</div>
 					<div>
 						<SocialLink />
