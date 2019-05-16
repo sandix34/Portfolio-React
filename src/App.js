@@ -10,7 +10,7 @@ function App() {
         <Navigation/>
         <Header/>
         <Main />
-      </div>
+    </div>
   );
 }
 

@@ -8,13 +8,16 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import SkillBar from 'react-skillbars';
 import SKILLS from './listSkills';
 
-// photo
+// illustration
 import codeur from '../../img/codeur.png';
+
+//liste des projets
+import projets from './listProjets';
 
 // PERSONNAL COMPONENTS
 import Formation from './Formation';
 import About from './About';
-import Projets from './Projets';
+import Card from './card';
 
 //colors skills bars
 const colors = {
@@ -30,9 +33,17 @@ const colors = {
 class Main extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {}
+		this.state = {
+			projets: projets
+		}
 	}
+
 	render() {
+
+		//card projets
+		const cards = Object.keys(this.state.projets)
+			.map(key => <Card key={key} details={this.state.projets[key]}></Card>)
+
 		return (
 			<main className="main  ">
 				<About />
@@ -44,26 +55,26 @@ class Main extends Component {
 						<Formation />
 					</div>
 					{/*COMPETENCES */}
-					<div className=" col-lg-6 p-5">
+					<div className=" col-lg-6 p-5" id="competences">
 						<h2 className="text-center p-5">Compétences</h2>
 						<div className="pb-5">
 							<img src={codeur} alt="" className="img-thumbnail" />
 						</div>
 						<SkillBar skills={SKILLS} colors={colors} />
-						<a class="btn btn-outline-light btn-block "
+						<a className="btn btn-outline-light"
 							href="https://github.com/sandix34/Mon-traqueur-d-apprentissage"
 							role="button"
 							target="_blank"
 						>Voir mon journal complet de compétences <FontAwesomeIcon className="social" icon={faGithub} color="#4daac4" /></a>
-						<h2 className="text-center p-5">Ambitions</h2>
-						<p className="p-5">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure recusandae vero beatae. Cumque officiis enim explicabo consequuntur ullam ad deleniti, iure dolores, reprehenderit in animi ipsam repellendus harum provident!
-						 </p>
 					</div>
 				</section>
-				<section >
+				{/*SECTION PROJETS */}
+				<section id="portfolio" >
 					<h2 className="text-center p-5">Ce que je fais</h2>
-					<Projets />
+					<div className="projets d-flex row justify-content-center ">
+						{cards}
+					</div>
+
 				</section>
 			</main>
 		);
