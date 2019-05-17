@@ -3,7 +3,7 @@ const projets  ={
     projet1: {
        nom: 'allomovies', 
        image: 'allomovies.jpg',
-       text: `Un projet guidé réalisé dans le cadre de la formation e-learning React proposé par Dyma.fr afin d'apréhender les bases de React`,
+       text: `Un projet guidé réalisé dans le cadre de la formation e-learning React proposé par Dyma.fr afin d'appréhender les bases de React`,
        link: 'https://github.com/sandix34/Atelier-React'
 
     },
