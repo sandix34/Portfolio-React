@@ -15,7 +15,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<div className="header ">
+			<div className="header " id="accueil">
 				<div className="img flex-column d-flex ">
 					<h1 className="title mb-5"><span className="symbol">&lt;</span> Sandrine ZOCCA <span className="symbol">&#47; &gt;</span></h1>
 					<h2 className="sub-title"> <span className="symbol">&#123;</span> Développeuse Web Junior <span className="symbol">&#125;</span></h2>
