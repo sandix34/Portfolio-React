@@ -10,7 +10,7 @@ const Card = ({ details }) => {
 
 	return (
 		<div className="m-3">
-			<div className="card " style={{ width: '30rem' }}>
+			<div className="card " style={{ width: '20rem' }}>
 				<img src={requireImage(details.image)} className="card-img-top" alt={details.nom} />
 				<div className="card-body">
 					{details.text}
