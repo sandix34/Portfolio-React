@@ -1,5 +1,6 @@
 /* ~~~~~~~~~ Google Font ~~~~~~~~~~*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import 'vars.scss';
 
 /* ~~~~~~ BODY ~~~~~~*/
 
@@ -29,7 +30,7 @@ body {
   font-size: 5em;
   font-weight: bold;
   letter-spacing: 0.1em;
-  color: #444954;
+  color: $background-grey;
 }
 .symbol {
   color: #546e7b; 
@@ -74,5 +75,12 @@ body {
 
 .footer {
   color: white;
-  background-color: #444954;
+  background-color: $background-grey;
 }
+
+/*
+patate,
+patate2,
+patate3 {
+  @include basicButton;
+} */
