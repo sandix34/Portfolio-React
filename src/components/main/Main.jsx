@@ -19,6 +19,9 @@ import Formation from './Formation';
 import About from './About';
 import Card from './card';
 
+// scroll up button
+import ScrollUpButton from "react-scroll-up-button";
+
 //colors skills bars
 const colors = {
 	"bar": "#4daac4",
@@ -46,6 +49,7 @@ class Main extends Component {
 
 		return (
 			<main className="main  ">
+				<ScrollUpButton />
 				<About />
 				{/*SECTION FORMATION */}
 				<section className="formation row no-gutters" >
