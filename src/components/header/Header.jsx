@@ -17,8 +17,8 @@ class Header extends Component {
 		return (
 			<div className="header " id="accueil">
 				<div className="img flex-column d-flex ">
-					<h1 className="title mb-5"><span className="symbol">&lt;</span> Sandrine ZOCCA <span className="symbol">&#47; &gt;</span></h1>
-					<h2 className="sub-title"> <span className="symbol">&#123;</span> Développeuse Web Junior <span className="symbol">&#125;</span></h2>
+					<h1 className="title mb-5"><span className="symbol">&lt;</span> Je suis Sandrine Zocca <br/> Développeuse Web <span className="symbol">&#47; &gt;</span></h1>
+					<h2 className="sub-title"> <span className="symbol">&#123;</span> Les pieds sur terre, le regard vers l'avenir <span className="symbol">&#125;</span></h2>
 					{/*<div className="d-flex justify-content-center">
 						<span className="icons" ><FontAwesomeIcon icon={faHtml5} size="3x" color="#df4b25" /></span>
 						<span className="icons" ><FontAwesomeIcon icon={faCss3} size="3x" color="#3695cf" /></span>
@@ -26,7 +26,7 @@ class Header extends Component {
 						<span className="icons" ><FontAwesomeIcon icon={faReact} size="3x" color="#60dafb" /></span>
 					</div>*/}
 					<AnchorLink href='#about'>
-						<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="4x" color="#899ca2" />
+						<FontAwesomeIcon className="arrow" icon={faArrowCircleDown} size="2x" color="#899ca2" />
 					</AnchorLink>
 
 
