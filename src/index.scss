@@ -16,7 +16,8 @@ body {
 
 /*~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~*/
 .img {
-  background-image: url(./img/DSC00105.png);
+  background-image: url(./img/code.jpg);
+  background-attachment: fixed;
   width: 100%;
   height: 100vh;
   background-image: cover;
@@ -25,7 +26,7 @@ body {
   display: flex;
 }
 .title {
-  margin-top: 8rem;
+  margin-top: 4rem;
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
