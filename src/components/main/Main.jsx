@@ -13,6 +13,7 @@ import codeur from '../../img/codeur.png';
 
 //liste des projets
 import projets from './listProjets';
+import projetsPerso from './listProjetsPersos';
 
 // PERSONNAL COMPONENTS
 import Formation from './Formation';
@@ -37,7 +38,8 @@ class Main extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			projets: projets
+			projets: projets,
+			projetsPerso: projetsPerso
 		}
 	}
 
@@ -46,6 +48,12 @@ class Main extends Component {
 		//card projets
 		const cards = Object.keys(this.state.projets)
 			.map(key => <Card key={key} details={this.state.projets[key]}></Card>)
+
+		//card projetsPerso
+		const cardsPerso = Object.keys(this.state.projetsPerso)
+			.map(key => <Card key={key} details={this.state.projetsPerso[key]}></Card>)
+
+
 
 		return (
 			<main className="main  ">
@@ -74,11 +82,18 @@ class Main extends Component {
 				</section>
 				{/*SECTION PROJETS */}
 				<section id="portfolio" >
-					<h2 className="text-center p-5">Ce que je fais</h2>
-					<div className="projets d-flex row justify-content-center ">
-						{cards}
+					<div>
+						<h2 className="text-center p-5">Portfolio d'apprentissage</h2>
+						<div className="projets d-flex row justify-content-center ">
+							{cards}
+						</div>
 					</div>
-
+					<div>
+						<h2 className="text-center p-5">Ce que je fais</h2>
+						<div className="projets d-flex row justify-content-center ">
+							{cardsPerso}
+						</div>
+					</div>
 				</section>
 			</main>
 		);

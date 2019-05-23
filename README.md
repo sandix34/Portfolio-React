@@ -1,3 +1,8 @@
+### Premier projet personnel me permettant de mettre en oeuvre mon apprentissage du developpement web depuis novembre 2018. 
+
+![cvReact](https://user-images.githubusercontent.com/44428775/58253747-69b4b780-7d69-11e9-8faf-e3e4b44a0973.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

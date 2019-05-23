@@ -14,11 +14,24 @@ const projets  ={
         link: 'https://github.com/sandix34/Markdown-Editor'
     },
     projet3: {
-        nom: 'openLayers',
-        image: 'openLayers.jpg',
-        text: ` Projet personnel sur une collection de composants React-OpenLayers, mettant en pratique mes formations React d'une part et OpenLayers de l'autre.`,
-        link: 'https://github.com/sandix34/React-OpenLayers'
-    }
+        nom: 'Devis Generator',
+        image: 'devisGenerator.png',
+        text: `Création d'un générateur de devis permettant d'appréhender la gestion de formulaire et la génération de fichier PDF avec le component react-pdf. `,
+        link: 'https://github.com/sandix34/Devis-generator-react'
+    },
+    projet4: {
+        nom: 'Recette Box',
+        image: 'recetteBox.png',
+        text: `Une application pour ajouter ou suprimer une recette. Gestion de formulaire et découverte de Firebase `,
+        link: 'https://github.com/sandix34/Recettes-Box'
+    },
+    projet5: {
+        nom: 'En Route',
+        image: 'ReactRoutage.png',
+        text: `Une application qui récupère une liste de todos depuis l' API JSONPlaceholder et implémentation du routage.`,
+        link: 'https://github.com/sandix34/Routage-React'
+    },
+    
 
 }
 
