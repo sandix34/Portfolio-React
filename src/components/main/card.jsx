@@ -16,7 +16,7 @@ const Card = ({ details }) => {
 					{details.text}
 				</div>
 				<div className="card-footer">
-				<a href={details.link} target="_blank" class="btn btn-outline-info">En savoir plus</a>
+				<a href={details.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">En savoir plus</a>
 				</div>
 			</div>
 		</div>

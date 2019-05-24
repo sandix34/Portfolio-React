@@ -77,6 +77,7 @@ class Main extends Component {
 							href="https://github.com/sandix34/Mon-traqueur-d-apprentissage"
 							role="button"
 							target="_blank"
+							rel="noopener noreferrer"
 						>Voir mon journal complet de compétences <FontAwesomeIcon className="social" icon={faGithub} color="#4daac4" /></a>
 					</div>
 				</section>

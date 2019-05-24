@@ -24,20 +24,20 @@ class Navigation extends Component {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarSupportedContent" >
 					<div className="navbar-nav mx-auto">
-						<AnchorLink href='#accueil'>
-							<a className="nav-item nav-link active" href="#">Accueil</a>
+						<AnchorLink className="nav-item nav-link active" href='#accueil'>
+							Accueil
 						</AnchorLink>
-						<AnchorLink href='#about'>
-							<a className="nav-item nav-link" href="#about">A propos</a>
+						<AnchorLink className="nav-item nav-link" href='#about'>
+							A propos
 						</AnchorLink>
-						<AnchorLink href='#competences'>
-							<a className="nav-item nav-link" href="#competences">Compétences</a>
+						<AnchorLink className="nav-item nav-link" href='#competences'>
+							Compétences
 						</AnchorLink>
-						<AnchorLink href='#portfolio'>
-							<a className="nav-item nav-link" href="#portfolio">Portfolio</a>
+						<AnchorLink className="nav-item nav-link" href='#portfolio'>
+							Portfolio
 						</AnchorLink>
-						<AnchorLink href='#footer'>
-							<a className="nav-item nav-link" href="#footer">Contact</a>
+						<AnchorLink className="nav-item nav-link" href='#footer'>
+							Contact
 						</AnchorLink>
 					</div>
 					<div>
